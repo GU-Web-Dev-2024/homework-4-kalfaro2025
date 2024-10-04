@@ -1,3 +1,11 @@
+/*
+* Style for the overall container
+* Container type: flex
+* This container holds the 6 pumpkins and can dynamically 
+* change their size based on the screen size. The container is styled with 
+* fall colors as per the assignment directions.
+* The container is also rounded 
+*/
 #container {
     display: flex;
     flex-direction: row;
@@ -9,15 +17,25 @@
     padding: 20px;
     border-radius: 20px;
 }
-
+/*
+* Style for the pumpkins divs
+* Each div is a box that holds an image of a pumpkin.
+* Each div has a border that is red, and the background color is orange.
+*/
 #pumpkin1, #pumpkin2, #pumpkin3, #pumpkin4, #pumpkin5, #pumpkin6 {
     height: 200px;
     width: 200px;
     margin: 10px;
     border : 8px solid firebrick;
     background-color: darkorange;
+    border-radius: 20px;
 
 }
+/*
+* Style for the images
+* The images are styled with a height and width of 100px to ensure they fit inside the div
+* The images are centered and change their size based on the screen size
+*/
 img {
     height: 100px;
     width: 100px;
@@ -27,22 +45,46 @@ img {
     margin-right: auto;
     width: 50%;
 }
+/*
+* Style for the h1
+* The h1 is styled with a font size of 50px and a font family of cursive
+* The h1 is also centered
+*/
 h1 {
     text-align: center;
     font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: cursive;
     color: orangered;
 }
+/*
+* Style for the h1 when hovered
+* The h1 is styled with a color of darkred when hovered over
+*/
+h1:hover {
+   color: darkred;
+}
+/*
+* The background color for the entire page is burlywood
+*/
 body {
     background-color: burlywood
 }
+/*
+* Style for the p
+* The p is styled with a font size of 25px and a font family of cursive
+* The p is also centered
+*/
 p {
     text-align: center;
     font-size: 25px;
     font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: cursive;
     color:black;
 }
+/*
+* Style for the p when hovered
+* The p is styled with a color of crimson when hovered over
+*/
 #pumpkin1:hover, #pumpkin2:hover, #pumpkin3:hover, #pumpkin4:hover, #pumpkin5:hover, #pumpkin6:hover {
     background-color: crimson;
 }
