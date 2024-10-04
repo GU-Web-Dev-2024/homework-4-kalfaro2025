@@ -3,11 +3,43 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: sienna;
+    border: 12px solid chocolate;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
 }
 
-#candy1, #candy2, #candy3, #candy4, #candy5, #candy6, #candy7, #candy8, #candy9, #candy10 {
+#pumpkin1, #pumpkin2, #pumpkin3, #pumpkin4, #pumpkin5, #pumpkin6 {
     height: 200px;
     width: 200px;
-    background-color: palevioletred;
     margin: 10px;
+    border : 8px solid firebrick;
+    background-color: darkorange;
+
+}
+img {
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: orangered;
+}
+body {
+    background-color: burlywood
+}
+p {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
 }
