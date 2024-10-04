@@ -43,3 +43,6 @@ p {
     font-family: 'Times New Roman', Times, serif;
     color:black;
 }
+#pumpkin1:hover, #pumpkin2:hover, #pumpkin3:hover, #pumpkin4:hover, #pumpkin5:hover, #pumpkin6:hover {
+    background-color: crimson;
+}
